@@ -159,10 +159,8 @@ class RadiationWatch:
         self.timer.init(mode = Timer.PERIODIC, period = PROCESS_PERIOD, callback = self._process_statistics)
 
     def _process_statistics(self, t):
-        #print("Enter _process_statistics")
         with self.mutex:
             current_time = millis()
-            #print(current_time)
             current_radiation_count = self.radiation_count
             current_noise_count = self.noise_count
             self.radiation_count = 0
