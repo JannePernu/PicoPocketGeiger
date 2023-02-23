@@ -14,9 +14,9 @@ MicroPython, which is used here, has the machine library by default.
 
 ## Wiring
 
-The Pocket Geiger must be wired to the GPIO ports of the Raspberry Pi. Refer to the GPIO pin specification of your RPi revision.
+The Pocket Geiger must be wired to the GP ports of the Raspberry Pi Pico. Refer to the GP pin specification of your RPi Pico revision.
 
-For exemple you can wire the radiation and the noise pin on respectively the `GPIO24` and `GPIO23` of your Raspberry Pi.
+For exemple you can wire the radiation and the noise pin on respectively the `GPIO27` and `GP26` of your Raspberry Pi Pico.
 
 | Pocket Geiger pin | Raspberry Pi Pico pin | Standing for |
 | ----------------- | --------------------- | ------------ |
