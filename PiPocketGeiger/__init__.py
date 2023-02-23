@@ -181,9 +181,6 @@ class RadiationWatch:
 
         # Save time of current process period.
         self.previous_time = millis()
-        
-        # Enable the timer again.
-
             
 
 if __name__ == "__main__":
